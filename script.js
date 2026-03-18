@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('load', () => {
     setTimeout(() => {
       pageLoader.classList.add('hidden');
-    }, 2000);
+    }, 500);
   });
 
   /* ==========================================================
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Start typing after loader
-  setTimeout(typeWriter, 2200);
+  setTimeout(typeWriter, 450);
 
   /* ==========================================================
      HERO PARTICLES
